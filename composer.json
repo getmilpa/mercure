@@ -1,0 +1,30 @@
+{
+  "name": "milpa/mercure",
+  "description": "Mercure hub publisher for the Milpa PHP framework: self-signed JWT generation and SSE publish over cURL.",
+  "type": "library",
+  "license": "Apache-2.0",
+  "require": {
+    "php": ">=8.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11.5",
+    "phpstan/phpstan": "^2.1",
+    "phpstan/phpdoc-parser": "^2.3",
+    "friendsofphp/php-cs-fixer": "^3.65",
+    "milpa/core": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Milpa\\Mercure\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Milpa\\Mercure\\Tests\\": "tests/",
+      "Milpa\\Docs\\": "vendor/milpa/core/tools/gen-docs/"
+    },
+    "files": [
+      "tests/Support/curl_functions.php"
+    ]
+  }
+}
