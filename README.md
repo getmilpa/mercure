@@ -1,8 +1,18 @@
+<p align="center">
+  <a href="https://github.com/getmilpa">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/getmilpa/core/main/art/lockup/milpa-lockup-v-color-dark.svg">
+      <img src="https://raw.githubusercontent.com/getmilpa/core/main/art/lockup/milpa-lockup-v-color-light.svg" alt="Milpa" width="300">
+    </picture>
+  </a>
+</p>
+
 # Milpa Mercure
 
 > The **Mercure hub publisher** for the Milpa PHP framework, with **zero package dependencies**. One class, `MercureService`, mints self-signed HS256 JWTs by hand and pushes real-time updates to a [Mercure](https://mercure.rocks/) hub over `curl_*` directly — no HTTP client abstraction, no `milpa/core` at runtime.
 
 [![CI](https://github.com/getmilpa/mercure/actions/workflows/ci.yml/badge.svg)](https://github.com/getmilpa/mercure/actions/workflows/ci.yml)
+[![Packagist](https://img.shields.io/packagist/v/milpa/mercure.svg)](https://packagist.org/packages/milpa/mercure)
 [![PHP](https://img.shields.io/badge/php-%E2%89%A5%208.3-777bb4.svg)](https://www.php.net/)
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
 [![Docs](https://img.shields.io/badge/docs-API%20reference-blue.svg)](https://getmilpa.github.io/mercure/)
@@ -84,8 +94,8 @@ issues via [SECURITY.md](SECURITY.md), and note that this project follows a
 
 ## License
 
-[Apache-2.0](LICENSE) © the Milpa authors.
+[Apache-2.0](LICENSE) © TeamX Agency.
 
 ---
 
-Milpa is designed, built, and maintained by **[TeamX Agency](https://teamx.agency)**.
+Milpa is designed, built, and maintained by **[TeamX Agency](https://teamx.agency/?utm_source=github&utm_medium=readme&utm_campaign=milpa&utm_content=mercure)**.
