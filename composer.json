@@ -3,6 +3,12 @@
   "description": "Mercure hub publisher for the Milpa PHP framework: self-signed JWT generation and SSE publish over cURL.",
   "type": "library",
   "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Rodrigo Vicente - TeamX Agency",
+      "homepage": "https://teamx.agency"
+    }
+  ],
   "require": {
     "php": ">=8.3"
   },
